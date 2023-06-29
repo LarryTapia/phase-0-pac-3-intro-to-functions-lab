@@ -7,12 +7,12 @@ function whisper(string){
 }
 
 function logShout(string){
-    const spy = "hello";
+    const spy = string;
     console.log(spy.toUpperCase());
 }
 
 function logWhisper(string){
-    const spy = "HELLO";
+    const spy = string;
     console.log(spy.toLowerCase());
 }
 
@@ -38,6 +38,10 @@ function sayHiToHeadphonedRoommate(string){
     }
 }
 
+console.log(shout("foOtbAll"));
+console.log(whisper("javaScripT"));
+logShout('newYork');
+logWhisper('flatIron');
 console.log(sayHiToHeadphonedRoommate("helloooo"));
 console.log(sayHiToHeadphonedRoommate("HELLOOOOO"));
 console.log(sayHiToHeadphonedRoommate(`Let\'s have dinner together!`));
