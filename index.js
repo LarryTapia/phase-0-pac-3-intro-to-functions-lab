@@ -7,13 +7,11 @@ function whisper(string){
 }
 
 function logShout(string){
-    const spy = string;
-    console.log(spy.toUpperCase());
+    console.log(string.toUpperCase());
 }
 
 function logWhisper(string){
-    const spy = string;
-    console.log(spy.toLowerCase());
+    console.log(string.toLowerCase());
 }
 
 function sayHiToHeadphonedRoommate(string){
